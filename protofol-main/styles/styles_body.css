@@ -1,0 +1,71 @@
+body{
+    background-color: #464646;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+}
+.content{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+
+    
+}
+footer{
+    color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 0;
+    right: 45%;
+    background-color: #2d2d2d;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.texter{
+    position: sticky;
+    font-size: xx-large;
+    left: 400px;
+    color: aliceblue;
+    font-family: font;
+}
+
+.content2{
+    position: absolute;
+    top: 900px;
+    left: 20px;
+    font-family: font;
+}
+
+.texter2{
+   margin-top: 300px;
+   margin-left: 350px;
+   font-size: x-large;
+   color: aliceblue;
+   max-width: 400px;
+   font-family: font;
+}
+
+.texter3{
+    margin-top: -250px;
+    margin-left: 350px;
+    font-size: x-large;
+    color: aliceblue;
+    max-width: 400px;
+    font-family: font;
+ }
+
+ .section{
+    height: 100vh;
+    background-color: pink;
+ }
+
+ html{
+    scroll-behavior: smooth;
+ }
+
+ @font-face {
+    font-family: font;
+    src: url(fonts/Comico-Regular.woff2);
+ }
